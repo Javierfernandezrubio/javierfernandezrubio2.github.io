@@ -10,18 +10,36 @@ header p{
 p[name]{
   background: yellow;
 }
-p[name=p1]{
+p[name="p1"]{
   background: red;
 }
 p[name~="p2"]{
   background: green;
 }
-p[name^=p3]{
+p[name^="p3"]{
   background: grey;
 }
-p[name$=p4]{
+p[name$="p4"]{
   background: purple;
 }
-p[name*=p5]{
+p[name*="p5"]{
   background: orange;
+}
+
+
+p.subir {
+  font-size: 24px;
+  padding: 48px 60px;
+  border: solid 24px green;
+  margin: 48px 60px;
+  background: blue;
+  display: 50vw;
+  display: 50vh;
+}
+
+#top:hover {
+  font-size: xx-large;
+}
+p:nth-child(odd){
+  background: blue;
 }

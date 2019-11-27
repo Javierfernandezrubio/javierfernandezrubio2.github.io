@@ -1,0 +1,36 @@
+@font-face{
+  font-family: "Mystery Quest";
+  src: url("mystery-quest.woff2");
+}
+h1 {
+  font-family: "Mystery Quest", cursive;
+  font-size: 32px;
+}
+
+#h2 {
+  font-family: Verdana;
+  font-family: 'PT Sans';
+  font-size: 24px;
+}
+
+#p1 {
+  font-family: Trattatello, fantasy;
+}
+#p2 {
+  font: italic 18px Jazz LET, fantasy;
+}
+#p3 {
+  font: italic 18px Blippo, fantasy;
+}
+#p4 {
+  font: italic 18px Stencil Std, fantasy;
+}
+#p5 {
+  font: italic 18px Chalkduster, fantasy;
+}
+#p6 {
+  font: italic 18px Chalkduster, fantasy;
+}
+#p7 {
+  font: italic 18px Chalkduster, fantasy;
+}
