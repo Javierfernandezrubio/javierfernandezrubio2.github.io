@@ -1,0 +1,65 @@
+img {
+  width: 300px;
+}
+
+
+@keyframes myAnimation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes myAnimation2 {
+  100% {
+    transform: scale(5);
+  }
+}
+@keyframes myAnimation3 {
+  100% {
+    transform: scale(5) rotate(360deg);
+  }
+}
+
+
+#guitarra1 {
+  display: block;
+  width: 500px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+#guitarra1:hover {
+  display: block;
+  width: 500px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  animation: myAnimation 2s ease 1s 3 alternate forwards;
+}
+
+
+#guitarra2 {
+  display: block;
+  width: 500px;
+  -webkit-filter: grayscale(1);
+  filter: blur(5px);
+}
+#guitarra2:hover {
+  display: block;
+  width: 500px;
+  -webkit-filter: grayscale(1);
+  filter: blur(5px);
+  animation: myAnimation2 2s ease 1s 3 alternate forwards;
+}
+
+#guitarra3 {
+  display: block;
+  width: 500px;
+  -webkit-filter: grayscale(1);
+  filter: drop-shadow(2px 4px 6px red);
+}
+#guitarra3:hover {
+  display: block;
+  width: 500px;
+  -webkit-filter: grayscale(1);
+  filter: drop-shadow(2px 4px 6px red);
+  animation: myAnimation3 2s ease 1s 3 alternate forwards;
+}
