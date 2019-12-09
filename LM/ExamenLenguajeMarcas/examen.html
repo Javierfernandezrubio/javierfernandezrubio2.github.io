@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    	<title>Lenguaje de Marcas</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Lenguaje de Marcas">
+		<meta name="keywords" content="lenguaje, marcas">
+		<link rel="icon" href="../../images/logo.ico" type="image/x-icon">
+  </head>
+  <body>
+    	<header>
+	        <h1 id="top"><center>Lenguaje de Marcas</center></h1>
+        </header>
+	    <nav>
+        <ul type="a"> 
+          <li><a href="#ejercicio1">Ejercicio 1</a></li> 
+          <li><a href="#ejercicio2">Ejercicio 2</a></li> 
+          <li><a href="#ejercicio3">Ejercicio 3</a></li> 
+          <li><a href="#ejercicio4">Ejercicio 4</a></li>  
+              </ul>
+	    </nav>
+	    <main>
+		    <section>
+			    <article>
+				    <header>
+					    <h2 id="ejercicio1">Ejercicio 1: Sistema Solar</h2>
+				    </header>
+				    <body>
+              <p>Los astros seleccionables son: el Sol, la Tierra, Jupiter y Saturno.</p>
+              <p><center><img src="images/sistemasolar.jpg" alt="Imagen del Sistema Solar"  align="center" width="450" height="275" title="Sistema Solar" href="https://es.wikipedia.org/wiki/Sistema_solar" target="_blank" usemap="sistemasolar"></center></p>
+              <map name="sistemasolar">
+                  <area alt="Jupiter" shape="circle" coords="44,36,29" href="https://es.wikipedia.org/wiki/Júpiter_(planeta)"> 
+                  <area alt="Saturno" shape="circle" coords="140,35,31" href="https://es.wikipedia.org/wiki/Saturno_(planeta)"> 
+                  <area alt="Tierra" shape="circle" coords="239,37,30" href="https://es.wikipedia.org/wiki/Tierra"> 
+                  <area alt="Sol" shape="circle" coords="336,36,31" href="https://es.wikipedia.org/wiki/Sol"> 
+              </map>
+              <p><a href="#top" alt="Lenguaje de Marcas">Subir Arriba</a></p>
+				    </body>
+			    </article>
+			    <article>
+				    <header>
+					    <h2 id="ejercicio2">Ejercicio 2: Lista de Terminos</h2>
+				    </header>
+				    <body>
+              <ul>
+                <p>Twecnologias Web:</p>
+                <li>CSS</li>
+                  <ul><li>Cascading Style Sheets</li></ul> 
+                <li>Html</li> 
+                  <ul><li>Hiper Text Markup Language</li> </ul>
+                <li>W3C</li>
+                  <ul><li>World Wide Web Consortium</li></ul>  
+                </ul>
+              <p><a href="#top" alt="Lenguaje de Marcas">Subir Arriba</a></p>
+				    </body>
+          </article>
+          <article>
+				    <header>
+					    <h2 id="ejercicio3">Ejercicio 3: Tabla</h2>
+				    </header>
+				    <body>
+              <table border="1">
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="2">Mafalda</th>
+                    <th colspan="2">Mortadelo</th>
+                    
+                </tr>
+                <tr>
+                    <th colspan="2">Fecha</th>
+                    <th>Entrada</th>
+                    <th>Salida</th>
+                    <th>Entrada</th>
+                    <th>Salida</th>
+                </tr>
+                <tr>
+                  <th colspan="2">1508</th>
+                  <td>08:30</td>
+                  <td>10:30</td>
+                  <td>10:45</td>
+                  <td>12:54</td>
+                </tr>
+                <tr>
+                  <th colspan="2">1508</th>
+                  <td>08:30</td>
+                  <td>10:30</td>
+                  <td>10:45</td>
+                  <td>12:54</td>
+                </tr>
+                <tr>
+                  <th colspan="2">1508</th>
+                  <td>08:30</td>
+                  <td>10:30</td>
+                  <td>10:45</td>
+                  <td>12:54</td>
+                </tr>
+                <tr>
+                  <th colspan="2">1508</th>
+                  <td>08:30</td>
+                  <td>10:30</td>
+                  <td>10:45</td>
+                  <td>12:54</td>
+                </tr>
+                <tr>
+                  <th colspan="2">1508</th>
+                  <td>08:30</td>
+                  <td>10:30</td>
+                  <td>10:45</td>
+                  <td>12:54</td>
+                </tr>
+                <tr>
+                  <th colspan="2">Importe horas</th>
+                  <td colspan="2">250€</td>
+                  <td colspan="2">325€</td>
+                </tr>
+              </table>
+              <p><a href="#top" alt="Lenguaje de Marcas">Subir Arriba</a></p>
+				    </body>
+          </article>
+          <article>
+				    <header>
+					    <h2 id="ejercicio4">Ejercicio 4: Formulario</h2>
+				    </header>
+				    <body>
+              <fieldset>
+              <legend><p>Información personal</p></legend>
+              <form name="formulario" method="GET">
+                <p><label>Nombre: <input type="text" name="nombre" maxlength="15"></label></p>
+                <p><label>Apellidos: <input type="text" name="apellidos" maxlength="30"></label></p>
+              </form>
+              <p>Grupo de Edad</p>
+              <form name="formulario" method="GET">
+                <p><label>0-30<input type="checkbox"></label> <label>31-60<input type="checkbox"></label> <label>61-100<input type="checkbox"></label></p>
+              </fieldset>
+              <fieldset>
+                </form>
+                  <legend><p>Información adicional</p></legend>
+                <form name="formulario" method="GET">
+                  <p>Bibiografia:</p>
+                  <p><label><input type="text" name="nombre" maxlength="500"></label></p>
+                  <p>Imagen: <button type="">Selecionar Archivo</button></p>
+                </form>
+              </fieldset>
+              <fieldset>
+              <legend><p>Intereses</p></legend>
+                <form name="formulario" method="GET">
+                  <p><label for="listado">Hobbie: </label>
+                    <select name="nacionalidad" id="listado">
+                      <option value="1">Deportes</option>
+                      <option value="2">Lectura</option>
+                      <option value="3">Cine</option>
+                      <option value="4">Naturaleza</option>
+                    </select>
+                  </p>
+                  <p><label for="listado">Red Social Favorita: </label>
+                    <select name="nacionalidad" id="listado">
+                      <option value="1">Redes Profesionales</option>
+                      <ul>
+                        <option value="1">Lindken</option>
+                        <option value="2">Xing</option>
+                      </ul>
+                      <option value="4">Redes Personales</option>
+                    </select>
+                  </p>
+                </form>
+              </fieldset>
+              <p><a href="#top" alt="Lenguaje de Marcas">Subir Arriba</a></p>
+				    </body>
+          </article>
+		    </section>
+		    <aside>
+			    <p><b></b></p>
+			    <p><b></b></p>
+            	<p><b></b></p>
+                <a></a>
+            	<p><b></b></p>
+               	<p></p> 
+		    </aside>
+	    </main>
+	    <footer>
+		    <adress>Cordoba, Estado Español</adress>
+		    <p>Javier Fernández Rubio</p>				    
+		    <p><small>&copy; Todos los derechos reservados</small></p>
+	    </footer>
+    </body>
+</html>
