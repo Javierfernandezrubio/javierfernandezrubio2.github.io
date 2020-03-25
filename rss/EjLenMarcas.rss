@@ -2,14 +2,10 @@
 <rss version="2.0">
 
 <channel>
-  <title>Ejercicios Lenguaje de Marcas</title>
-  <link>https://javierfernandezrubio.github.io/LM/temas/Ejemplocss/ejemplo1css.html</link>
+  <title>Ejercicios Lenguaje de Marcas de Javier Fernández Rubio</title>
+  <link>https://github.com/Javierfernandezrubio/Ejercicios-XML-Lenguaje-Marcas</link>
   <description>Ejercicios de Lenguaje de marcas</description>
-  <item>
-    <title>Ejercicio 1 CSS</title>
-    <link>https://javierfernandezrubio.github.io/LM/temas/Ejemplocss/ejemplo1css.html</link>
-    <description>Ejercicio 1 en clase sobre CSS</description>
-  </item>
+
   <item>
     <title>Ejercicios COVID-19</title>
     <link>https://github.com/Javierfernandezrubio/Ejercicios-XML-Lenguaje-Marcas</link>
