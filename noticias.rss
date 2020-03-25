@@ -2,13 +2,13 @@
 <rss version="2.0">
 
 <channel>
-  <title>Ejercicio 1 Css</title>
+  <title>Ejercicios Lenguaje de Marcas</title>
   <link>https://javierfernandezrubio.github.io/LM/temas/Ejemplocss/ejemplo1css.html</link>
-  <description>Free web building tutorials</description>
+  <description>Ejercicios de Lenguaje de marcas</description>
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <title>Ejercicio 1 CSS</title>
+    <link>https://javierfernandezrubio.github.io/LM/temas/Ejemplocss/ejemplo1css.html</link>
+    <description>Ejercicio 1 en clase sobre CSS</description>
   </item>
   <item>
     <title>XML Tutorial</title>
