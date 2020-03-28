@@ -11,49 +11,86 @@
    </head>
    <body>
     <header>
-			<img id="logotipo" src="../Cordobaturismo/images/CÓRDOBA TURISM0.png" alt="Logotipo-Cordoba-Trurismo" title="Logo de Cordoba Turismo">
-	<h1 id="top"><center>Córdoba Ciudad Patrimonio</center></h1>
-    </header>
-	<nav>
-			<p><h3 class="secciones"><a href="CordobaTurismoindex.html">Inicio</a> | 
-				<a href="mezquita.html">La Mezquita</a> |
-				<a href="cascohistorico.html">Casco historico</a> | 
-				<a href="patios.html">Los Patios</a> | 
-				<a href="medinaazahara.html">Medina Azahara</a></h3></p>  
-				<!-- <li><a href="contacto.html">Contacto </a></li> -->
-	</nav>
+		<div class="header">
+			<div>
+				<img id="logotipo" src="../Cordobaturismo/images/CÓRDOBA TURISM0.png" alt="Logotipo-Cordoba-Trurismo" title="Logo de Cordoba Turismo">
+			</div>
+			<div>
+				<h1 id="top"><center>Córdoba Ciudad Patrimonio</center></h1>
+			</div>
+			<div>
+				<img id="logotipo" src="../Cordobaturismo/images/Escudo_oficial_de_Córdoba_(España).svg" alt="Escudo" title="Escudo de Cordoba">
+			</div>
+		</div>
+	</header>
+    <nav>
+        <div class="navbar"> 
+                <div>
+                    <a href="CordobaTurismoindex.html" class="active">Inicio</a>
+                </div>
+                <div>
+                    <a href="mezquita.html">La Mezquita</a>
+                </div>
+                <div>
+                    <a href="cascohistorico.html" class="active">Casco Histórico</a>
+				</div>
+				<div>
+                    <a href="patios.html" class="active">Los Patios</a>
+				</div>
+				<div>
+                    <a href="medinaazahara.html" class="active">Medina Azahara</a>
+				</div>
+				<div>
+                    <a href="contacto.html" class="active">Contacto</a>
+				</div>
+        </div>
+    </nav>
 	<main>
-		<section>
-			<article>
-				<header>
-					<h2>Contenido noticia 1</h2>
-				</header>
-				<body>
-				<p>Medina Azahara.</p>
-				</body>
-			</article>
-			<article>
-				<header>
-					<h2>Contenido noticia 2</h>
-				</header>
-				<body>
-				<p>Prueba.</p>
-				</body>
-			</article>
-		</section>
-		<aside>
-			<p><b>· Agenda</b></p>
-			<p><b>· Publicidad</b></p>
-            <p><b>· Enlaces de interés</b></p>
-                <a href="https://www.turismodecordoba.org/" target="_blank">Turismo de Cordoba </a>
-            <p><b>· Descargas</b></p>
-               <p><a href="images/MapaCordoba.png" download="MapaCordoba">Mapa de Cordoba</a></p> 
-		</aside>
+		<div>
+			<div class="cabecera" >
+                <h2><strong><u>Medina Azahara</u></strong></h2>
+			</div>
+			<div class="Texto">
+				<p>Medina Azahara, castellanización del nombre en árabe, مدينة الزهراء Madīnat al-Zahrā ("la ciudad brillante"), fue una ciudad palatina o áulica que mandó edificar el primer califa de Córdoba, Abderramán III, a unos 8 km en las afueras de Córdoba en dirección oeste, a los pies de Sierra Morena.
+
+					Los principales motivos de su construcción son de índole político-ideológica: la dignidad de califa exige la fundación de una nueva ciudad, símbolo de su poder, a imitación de otros califatos orientales y sobre todo, para mostrar su superioridad sobre sus grandes enemigos, el recién instaurado Califato fatimí de Ifriqiya, la zona norte del continente africano. Además de oponentes políticos, lo eran también en lo religioso, ya que los fatimíes, chiíes, eran enemigos de los omeyas, mayoritariamente de la rama islámica suní.
+					
+					El yacimiento arqueológico de Medina Azahara está declarado Bien de interés cultural en la categoría de Monumento desde el año 1923​, además de ser declarada oficialmente como Patrimonio de la Humanidad de la Unesco el 1 de julio de 2018. En 2019 recibió más de 285.672 visitantes, siendo uno de los espacios culturales más visitados de Andalucía. </p>
+				
+					<div class="imagen">
+						<img src="images/medina.jpg"  align="center" width="450" height="275">
+						<img src="images/ma_edificio_basilical_superior.jpg"  align="center" width="450" height="275">
+					</div> 
+			</div>
+				
+		</div>
+		<nav>
+			<div class="navbar"> 
+					<div>
+						<a>Agenda</a>
+					</div>
+					<div>
+						<a>Publicidad</a>
+					</div>
+					<div class="dropdown">
+						<a>Enlaces de interés</a>
+						<div class="dropdown-content">
+							<a href="https://www.turismodecordoba.org/" target="_blank">Turismo de Cordoba </a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<a>Descargas</a>
+						<div class="dropdown-content">
+							<a href="images/MapaCordoba.png" download="MapaCordoba">Mapa de Cordoba</a>
+						</div>
+					</div>
+			</div>
+		</nav>
 	</main>
 	<footer>
 		<adress> Cordoba, Estado Español</adress>
 		<p>Javier Fernández Rubio</p>
-		<p><img src="https://www.pnglot.com/pngfile/detail/13-139932_transparent-background-twitter-logo.png" alt"Logotipo de Twitter" width="50" height="50"></p>				    
+		<p><img src="../Cordobaturismo/images/iconmonstr-twitter-4.svg" alt"Logotipo de Twitter"></p>				    
 		<p><small>&copy; Todos los derechos reservados</small></p>
         <p><a href="#top"><img src="images/botonarriba.svg" alt"Boton subir arriba" title="Subir Arrriba"</a></p>
 	</footer>

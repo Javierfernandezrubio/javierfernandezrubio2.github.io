@@ -1,0 +1,38 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/*CSS Contenido*/
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+.nd-contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 30%;
+    align-self: center;
+}
+.direccion{
+    padding-bottom: 50px;
+}
+
+/*CSS Formulario*/
+.formulario{
+    align-self: center;
+    padding: 50px;
+    flex: 70%;
+}
+
+
+
+@media (max-width:920px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
