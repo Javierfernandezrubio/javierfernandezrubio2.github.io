@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE geografia[
+<!ELEMENT geografia (continente,pais,capital)>
+<!ATTLIST geografia tipo (mundial|continental|local) "mundial">
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+]>
+<geografia tipo="mundial">
+  <continente>Europa</continente>
+  <pais>España</pais>
+  <capital>Madrid</capital>
+</geografia>

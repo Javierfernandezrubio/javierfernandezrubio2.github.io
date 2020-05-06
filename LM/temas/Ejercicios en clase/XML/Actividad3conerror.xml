@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE relacion SYSTEM "Actividad3conerror.dtd">
+<relacion>
+  <persona carnet="80169321-T" sexo="hombre">
+    <nombre>
+    Ricardo Borriquero
+    </nombre>
+    <email>
+    dame@dame
+    </email>
+    <parentesco>
+    Hermano
+    </parentesco>
+  </persona>
+</relacion>

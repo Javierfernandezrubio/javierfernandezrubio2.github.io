@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE programas[
+<!ELEMENT programas (programa)+>
+<!ELEMENT programa (nombre,licencia)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT licencia (#PCDATA)>
+]>
+<programas>
+  <programa>
+    <nombre>Firefox</nombre>
+    <licencia>GPL</licencia>
+  </programa>
+  <programa>
+    <nombre>Inskape</nombre>
+    <licencia>LGPL</licencia>
+  </programa>
+</programas>

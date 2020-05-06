@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores[
+<!ELEMENT errores (error*)>
+<!ELEMENT error (descripcion,codigo,actividad,fecha_hora,n_linea?,n_columna?)>
+<!ATTLIST error id ID #REQUIRED >
+<!ATTLIST error tipo (AVISO|WARNING|FATAL) #REQUIRED >
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT fecha_hora (#PCDATA)>
+<!ELEMENT n_linea (#PCDATA)>
+<!ELEMENT n_columna (#PCDATA)>
+]>
+
+<errores>
+        <error id="n1" tipo="AVISO">
+            <descripcion>
+            
+            </descripcion>
+            <codigo>
+            103
+            </codigo>
+            <actividad>
+            nº3
+            </actividad>
+            <fecha_hora>
+            17/02/2020
+            </fecha_hora>
+            <n_linea>
+            11
+            </n_linea>
+            <n_columna>
+            1
+            </n_columna>
+        </error>
+</errores>
+
+<errores>
+        <error id="n2" tipo="FATAL">
+            <descripcion>
+            
+            </descripcion>
+            <codigo>
+            104
+            </codigo>
+            <actividad>
+            nº3
+            </actividad>
+            <fecha_hora>
+            17/02/2020
+            </fecha_hora>
+            <n_linea>
+            3
+            </n_linea>
+            <n_columna>
+            22
+            </n_columna>
+        </error>
+</errores>
+
+<errores>
+        <error id="n3" tipo="FATAL">
+            <descripcion>
+            
+            </descripcion>
+            <codigo>
+            105
+            </codigo>
+            <actividad>
+            nº3
+            </actividad>
+            <fecha_hora>
+            17/02/2020
+            </fecha_hora>
+            <n_linea>
+            6
+            </n_linea>
+            <n_columna>
+            2
+            </n_columna>
+        </error>
+</errores>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores[
+<!ELEMENT errores (error*)>
+<!ELEMENT error (descripcion,codigo,actividad,fecha_hora,n_linea?,n_columna?)>
+<!ATTLIST error id ID #REQUIRED >
+<!ATTLIST error tipo (AVISO|WARNING|FATAL) #REQUIRED >
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT fecha_hora (#PCDATA)>
+<!ELEMENT n_linea (#PCDATA)>
+<!ELEMENT n_columna (#PCDATA)>
+]>
+
+<errores>
+        <error id="n1" tipo="AVISO">
+            <descripcion>
+            Error at line 24, column 12: element 'pais' is not allowed for content model '(nombre,calle,ciudad,pais,codigo)'
+            </descripcion>
+            <codigo>
+            102
+            </codigo>
+            <actividad>
+            nº1
+            </actividad>
+            <fecha_hora>
+            17/02/2020
+            </fecha_hora>
+            <n_linea>
+            24
+            </n_linea>
+            <n_columna>
+            12
+            </n_columna>
+        </error>
+</errores>

@@ -1,0 +1,7 @@
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre,mayor_de_edad?,ciudad)>
+<!ATTLIST persona formapago (Contado|Tarjeta) "Contado">
+<!ATTLIST persona dni ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mayor_de_edad EMPTY>
+<!ELEMENT ciudad (#PCDATA)>

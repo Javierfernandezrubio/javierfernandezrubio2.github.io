@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "nota.dtd">
+<note>
+    <to>
+    <nombre>Jose</nombre>
+    <direccion>correo@correo.com</direccion>
+    </to>
+    <from>Mark</from>
+    <heading>LM</heading>
+    <body>Lorem, ipsum</body>
+</note>

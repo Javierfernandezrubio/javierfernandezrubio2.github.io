@@ -1,0 +1,138 @@
+header {
+    background: #016039;
+
+    text-align: center;
+    padding:20px;
+    margin:20px 60px;
+    font-family:Arial;
+    font-size: 22px;
+    color: antiquewhite;
+    border-radius: 8px;
+
+}
+nav {
+    text-align: center;
+    background: #016039;
+    color: whitesmoke;
+    font-weight: bolder;
+    line-height: 180%;
+    border-radius: 8px;
+    width: 100%;
+}
+nav ul a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul a:hover {
+    text-decoration: none;
+    color: #E47E19;
+    font-size: 16px;
+}
+#menu {
+    display: inline;
+    margin: 10px;
+    border-radius: 8px;
+}
+body {
+    background: #f9efdf;
+    font-family: 'Chivo', sans-serif;
+}
+h1 {
+    text-align: center;
+
+    font-size: 21px;
+    font: bold;
+}
+h2 {
+    font-size: 15px;
+    font: bold;
+}
+main {
+    padding: 5px;
+    background: #016039;
+    color: white;
+    border-radius: 8px;
+}
+.tituloSeccion {
+    padding-left: 20px;
+}
+#cabeceraSeccion p a:hover {
+    font-size: 16px;
+}
+#cabeceraSeccion p a {
+    color: white;
+    text-decoration: none;
+}
+#cabeceraSeccion {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3px;   
+    border-radius: 8px; 
+}
+section {
+    color: white;
+    border-radius: 8px;
+}
+article {
+    text-align: center;
+
+    padding: 5px;
+    background: #E47E19;
+    color: white;
+    font-size: 15px;
+    width: 98%;
+    border-radius: 8px;
+}
+.imagenesArticle {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.imagenesArticle2 {
+    text-align: center;
+    width: 25%;
+    height: auto;
+}
+.imagenesCabecera {
+    text-align: center;
+    width: 100%;
+    max-width: 625px;
+    height: auto;
+}
+.iconos {
+    text-align: center;
+}
+.enlaceIconos a:visited {
+    font-size:65;
+    color: #e9c283;
+}
+.enlaceIconos a:hover {
+    font-size:75px;
+    color: white;
+}
+dt {
+    font-weight: bold;
+}
+.enlaceIconos a {
+    font-size:65px;
+    color: white;
+}
+/*a:visited {
+    font-size:90px;
+    color: green;
+}*/
+#imagenIconos {
+    font-size: 65px;
+}
+footer {
+    text-align: center;
+    border-radius: 8px;
+
+    background: #016039;
+    line-height: 25px;
+    color: #f9efdf;
+    vertical-align: bottom;
+}
+address {
+    margin-left: 25px;
+}

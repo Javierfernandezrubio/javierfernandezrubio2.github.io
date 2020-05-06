@@ -70,3 +70,16 @@
 .link:hover{
     color: blue
 }
+
+
+main{
+    padding: 5px;
+    
+}
+
+article{
+    padding: 5px;
+    
+    width: 98%;
+    border-radius: 8px;
+}

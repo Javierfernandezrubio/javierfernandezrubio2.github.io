@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "persona.dtd">
+<personas>
+    <persona dni="12345678-A">
+        <nombre>Javier Fernández</nombre>
+        <mayor_de_edad></mayor_de_edad>
+        <ciudad>Córdoba</ciudad>
+    </persona>
+    <persona formapago="Tarjeta" dni="12345679-B">
+        <nombre>Dora</nombre>
+        <ciudad>Córdoba</ciudad>
+    </persona>
+</personas>
