@@ -1,18 +1,18 @@
- <?xml version="1.0" encoding="UTF-8" ?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 
 <channel>
-  <title>Ejercicios Lenguaje de Marcas de Javier Fernández Rubio</title>
+  <title>Javier Fernández Rubio: Ejercicios Lenguaje de Marcas</title>
   <link>https://github.com/Javierfernandezrubio/Ejercicios-XML-Lenguaje-Marcas</link>
-  <description>Ejercicios de Lenguaje de marcas</description>
+  <description>Ejercicios de Lenguaje de marcas hechos en Cuarentena</description>
 
   <item>
-    <title>Ejercicios COVID-19</title>
+    <title>Javier Fernández Rubio: Ejercicios COVID-19</title>
     <link>https://github.com/Javierfernandezrubio/Ejercicios-XML-Lenguaje-Marcas</link>
     <description>Ejercicios de clase actualizados al dia 15 de abril</description>
   </item>
   <item>
-    <title>Ejercicios COVID-19</title>
+    <title>Javier Fernández Rubio: Ejercicios COVID-19</title>
     <link>https://github.com/Javierfernandezrubio/Ejercicios-XML-Lenguaje-Marcas</link>
     <description>Ejercicios de clase actualizados al dia 15 de abril</description>
   </item>
