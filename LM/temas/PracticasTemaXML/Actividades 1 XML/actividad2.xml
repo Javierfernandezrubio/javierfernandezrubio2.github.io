@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos[
+<!ELEMENT pedidos (pedido*)>
+<!ELEMENT pedido (cliente,articulo,direccion,fecha)>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT articulo (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+]>
+<pedidos>
+  <pedido>
+    <cliente>Juan Delgado Martinez</cliente>
+    <articulo>Bicicleta A2023</articulo>
+    <direccion>C/Barco 4, 3ºA</direccion>
+    <fecha>19-5-2000</fecha>
+  </pedido>
+</pedidos>

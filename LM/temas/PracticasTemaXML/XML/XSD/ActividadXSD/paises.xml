@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<paises xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="paises.xsd">
+    <pais>
+        <nombre>Argentina</nombre>
+        <nombre>Argentina</nombre>
+        <ciudad>Rosales</ciudad>
+        <ciudad>Buenos Aires</ciudad>
+    </pais>
+    <pais>
+        <nombre>Mexico</nombre>
+        <ciudad>Ciudad de Juarez</ciudad>
+        <ciudad>Mexico D.C</ciudad>
+        <ciudad>Mexico D.C</ciudad>
+        <ciudad>Mexico D.C</ciudad>
+        <ciudad>Mexico D.C</ciudad>
+    </pais>
+    <pais>
+        <nombre>Colombia</nombre>
+    </pais>
+</paises>

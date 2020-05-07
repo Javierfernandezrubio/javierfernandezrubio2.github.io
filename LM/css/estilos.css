@@ -83,6 +83,9 @@ article {
     width: 98%;
     border-radius: 8px;
 }
+#ejerciciosclave{
+    color: red;
+}
 .imagenesArticle {
     text-align: center;
     width: 100%;

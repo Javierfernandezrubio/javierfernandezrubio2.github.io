@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensajes[
+<!ELEMENT mensajes (mensaje*)>
+<!ELEMENT mensaje (remite,destinatario+,asunto?,texto)>
+<!ELEMENT remite (nombre,email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT destinatario (nombredes,emaildes)>
+<!ELEMENT nombredes (#PCDATA)>
+<!ELEMENT emaildes (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT texto (parrafo*)>
+<!ELEMENT parrafo (#PCDATA)>
+]>
+<mensajes>
+  <mensaje>
+    <remite>
+        <nombre></nombre>
+        <email></email>
+    </remite>
+    <destinatario>
+        <nombredes></nombredes>
+        <emaildes></emaildes>
+    </destinatario>
+    <asunto></asunto>
+    <texto>
+        <parrafo></parrafo>
+        <parrafo></parrafo>
+    </texto>
+  </mensaje>
+</mensajes>

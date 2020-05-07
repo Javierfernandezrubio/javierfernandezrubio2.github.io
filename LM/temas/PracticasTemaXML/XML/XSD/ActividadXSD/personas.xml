@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="personas.xsd">
+  <persona>
+    <nombre>Juan</nombre>
+    <edad>24</edad>
+    <pais>Andalucía</pais>
+    <telefono>963124850</telefono>
+  </persona>
+  <persona>
+    <nombre>Vlad</nombre>
+    <edad>26</edad>
+    <pais>Rumania</pais>
+    <telefono>647502010</telefono>
+  </persona>
+
+</personas>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mediosDeTransporte[
+<!ELEMENT mediosDeTransporte (mundial)+>
+<!ELEMENT mundial (pais,año)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+]>
+<mediosDeTransporte>
+  <bicicleta velocidad="100km/h"></bicicleta>
+  <patinete velocidad maxima="50 km/h"></patinete>
+</mediosDeTransporte>

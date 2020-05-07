@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note[
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (nombre,direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<note>
+    <to>
+    <nombre>Jose</nombre>
+    <direccion>correo@correo.com</direccion>
+    </to>
+    <from>Mark</from>
+    <heading>LM</heading>
+    <body>Lorem, ipsum</body>
+</note>

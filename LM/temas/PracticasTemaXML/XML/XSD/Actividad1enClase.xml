@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNameSchemaLocation="Actividad1XSD.xsd">
+    <nombre>Javier</nombre>
+    <ciudad>Cordoba</ciudad>
+    <fecha_nacimiento>1995-06-22</fecha_nacimiento>
+</persona>
