@@ -1,0 +1,14 @@
+p,span {
+    font-size: 16px;
+    color: chartreuse;
+}
+
+p span {
+    font-size: 14px;
+    color: brown;
+}
+
+header > p {
+    font-size: 22px;
+    color: red;
+}
