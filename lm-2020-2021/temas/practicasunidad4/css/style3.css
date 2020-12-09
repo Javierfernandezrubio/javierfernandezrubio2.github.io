@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(125, 110, 130, 0.2);
+}
+
+.noticia{
+    border: 24px solid rgb(120, 130, 140);
+    border-radius: 2%;
+    margin-right: 800px;
+    background-color: brown;
+}
+
+
+.titulo{
+    margin: 15px,15px,15px,20px;
+    font-size: larger;
+    font-style: italic;
+    width: 400px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+
+.poema {
+    font-family: cursive;
+    width: 400px;
+    margin-left: 25px;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: left;
+    color: turquoise;
+}
+
+#ies{
+    color: tomato;
+    text-decoration: underline;
+}
+#ies:hover{
+    color: blue;
+    text-decoration-color: blue;
+}
+#ies:checked{
+    color: greenyellow;
+    text-decoration-color: red;
+}
+
+.poema2 {
+    @font-face {
+        font-family: MyHelvetica;
+        src: local("Helvetica Neue Bold"),
+        local("HelveticaNeue-Bold"),
+        url(MgOpenModernaBold.ttf);
+        font-weight: bold;
+    }
+    text-transform: uppercase;
+    width: 400px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: 8px dotted red;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: justify;
+    overflow: visible;
+}

@@ -1,0 +1,58 @@
+/** Guitarra 1*/
+.image1{
+    display: block;
+    width: 50vw;
+    /**-webkit-filter: grayscale(1);
+    filter: grayscale(1);*/
+}
+
+/** Guitarra 2*/
+.image2{
+    display: block;
+    width: 50vw;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+/** Guitarra 3*/
+.image3{
+    display: block;
+    width: 50vw;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    filter: blur(5px);
+}
+.image3:hover{
+    display: block;
+    width: 50vw;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+/** Guitarra 4*/
+@keyframes guitarra {
+    0%   {border: 2px solid red; }
+    25%  {border: 2px solid yellow;}
+    50%  {border: 2px solid greenyellow;}
+    100% {border: 2px solid blue}
+    100% {
+        transform: rotate(180deg);
+    }
+}
+.image4{
+    display: block;
+    width: 50vw;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    filter: blur(5px);
+}
+.image4:hover{
+    animation-name: guitarra;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    display: block;
+    width: 50vw;
+    filter: blur(0px);
+    /**-webkit-filter: grayscale(1);
+    filter: grayscale(1);*/
+}

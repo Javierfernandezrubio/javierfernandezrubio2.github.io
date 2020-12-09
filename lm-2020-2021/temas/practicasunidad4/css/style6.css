@@ -1,0 +1,56 @@
+div{
+    float: left;
+    width: 25vw;
+    height: 35vh;
+    margin: 4vh;
+    border: 1vh solid green;
+}
+
+#a1{
+    background-color: brown;
+    border-radius: 2px;
+}
+#a2{
+    background-color: violet;
+    border-radius: 25px;
+}
+#a3{
+    border-radius: 10pt;
+}
+#a3:hover{
+    background-image: url(../css/imagen.jpg);
+    border-radius: 100pt; 
+}
+
+#b1{
+    border-radius: 10vh;
+}
+#b2{
+    border-radius: 25%;
+}
+#b3{
+    color: white;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 45px;
+}
+#b3:hover{
+    color: brown;
+    text-align: center;
+    text-justify: distribute;
+    background-image: url(../css/imagen.jpg);
+    opacity: 0.75;
+    border-radius: 100pt; 
+}
+
+
+#c1{
+    border-radius: 100%;
+    background: linear-gradient(blue, transparent, red);
+}
+#c2{
+    border-top-right-radius: 100%;
+}
+#c3{
+    border-bottom-color: brown;
+}
