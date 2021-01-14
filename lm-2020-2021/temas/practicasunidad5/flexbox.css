@@ -1,0 +1,17 @@
+nav ul {
+    display: flex;
+    /*justify-content: space-between;*/
+    list-style: none;
+}
+
+nav li {
+    display: flex;
+    font-size: 32px;
+    border: 4px solid cadetblue;
+    margin: auto;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}

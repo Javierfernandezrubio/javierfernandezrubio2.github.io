@@ -1,0 +1,51 @@
+/*body {
+    background-color: black;
+}*/
+
+/*Parte del ccs correspondiente al nav*/
+nav ul {
+    display: flex;
+    /*justify-content: space-between;*/
+    list-style: none;
+}
+
+nav li {
+    display: flex;
+    font-size: 32px;
+    border: 4px solid cadetblue;
+    margin: auto;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/*Parte del css correspondiente al section div*/
+.container {
+    display: flex;
+}
+
+.container > div {
+    font-size: 2vw;
+    padding: .5em;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+    width: 40vw;
+}
+
+.blue > p {
+    font-size: 75%;
+}
