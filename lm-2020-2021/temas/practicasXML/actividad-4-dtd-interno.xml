@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE relacion [
+<!ELEMENT relacion (persona)+>
+<!ELEMENT persona (nombre,email*, parentesco?)>
+<!ATTLIST persona carnet ID #REQUIRED>
+<!ATTLIST persona sexo (hombre|mujer) #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT parentesco EMPTY>
+<!ATTLIST parentesco tutor-legal IDREFS #IMPLIED hermano-a IDREFS #IMPLIED>
+]>
+
+<relacion>
+<persona carnet="id80154636G" sexo="hombre">
+    <nombre>Pepito Palotes</nombre>
+    <email>pepipopalotes@gmailcom</email>
+</persona>
+<persona carnet="id35876524h" sexo="mujer">
+    <nombre>María Palotes</nombre>
+    <email>mariatorexulona@gmailcom</email>
+    <parentesco tutor-legal="id80154636G"/>
+</persona>
+<persona carnet="id65876524h" sexo="hombre">
+    <nombre>Carlos Palotes</nombre>
+    <email>carlinhospalos@gmailcom</email>
+    <parentesco hermano-a="id80154636G"/>
+</persona>
+</relacion>

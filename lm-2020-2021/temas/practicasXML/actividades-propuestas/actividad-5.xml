@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE programas[
+<!ELEMENT programas (programa+)>
+<!ELEMENT programa (#PCDATA)>
+<!ATTLIST programa nombre CDATA #REQUIRED>
+<!ATTLIST programa licencia (GPL|LGPL|MPL)>
+]>
+<programas>
+  <programa nombre="Firefox" licencia="GPL" licencia="MPL"/>
+  <programa nombre="LibreOffice" licencia="LGPL"/>
+  <programa nombre="Inkscape" licencia="GPL"/>
+</programas>
+
+
+<!-- ERRORES Y MODIFICACIONES REALIZADAS
+- Faltaba la creación de la declaración de los elementos. Creamos DOCTYPE y los distintos elementos
+    con sus características.
+- En la línea aparece dos veces el atributo licencia.
+- En la línea 11, licencia no tiene el valor comillas
+-->

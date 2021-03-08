@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas[
+<!ELEMENT deportistas (deportista+)>
+<!ELEMENT deportista (deporte, nombre)>
+<!ELEMENT deporte (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+]>
+
+<deportistas>
+  <deportista>
+    <deporte>Atletismo</deporte>
+    <nombre>Jesse Owens</nombre>
+  </deportista>
+  <deportista>
+    <deporte>Natación</deporte>
+    <nombre>Mark Spitz</nombre>
+  </deportista>
+</deportistas>
+
+<!-- ERRORES Y MODIFICACIONES REALIZADAS
+- Faltaba la creación de la declaración de los elementos. Creamos DOCTYPE y los distintos elementos
+    con sus características.
+- Modificamos el elemento "deporte" incluyendo su etiqueta de inicio y final, así como el valor adecuado.
+- Faltaba la etiqueta de cierre tras el nombre de Jesse Owens
+-->

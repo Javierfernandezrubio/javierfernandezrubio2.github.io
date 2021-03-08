@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etiqueta[
+<!ELEMENT etiqueta (nombre,calle,ciudad,pais,codigo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+]>
+<etiqueta>
+    <nombre>Error en formato texto</nombre>
+    <calle>Solucion en formato texto</calle>
+    <ciudad>Madrid</ciudad>
+    <pais>Explicacion en formato texto</pais>
+    <codigo>158952</codigo>
+</etiqueta>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores[
+<!ELEMENT errores (error*)>
+<!ELEMENT error (antes,despues,explicacion)>
+<!ATTLIST error id ID #REQUIRED>
+<!ELEMENT antes (#PCDATA)>
+<!ELEMENT despues (#PCDATA)>
+<!ELEMENT explicacion (#PCDATA)>
+]>
+<errores>
+  <error id="error_1">
+    <antes>Le falta el nodo raiz</antes>
+    <despues>Nodo raiz agenda</despues>
+    <explicacion>Añadirle el nodo raiz al documento</explicacion>
+  </error>
+  <error id="error_2">
+    <antes>No atributo ID en la 1º persona de nombre Mercedes</antes>
+    <despues>Atributo ID de valor "Mercedes"</despues>
+    <explicacion>Falta el ID</explicacion>
+  </error>
+</errores>
