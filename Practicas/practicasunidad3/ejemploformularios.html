@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cordoba ciudad turismo">
+    <meta name="keywords" content="Turismo, patrimonio, viajes">
+    <title>Formularios</title>
+    <!--link rel="stylesheet" href="estilos.css"-->
+</head>
+<body>
+    <header>
+        <h1>Uso de formularios</h1>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <section>
+            <h2>Formulario basico:</h2>
+            <form name="formulario" method="GET" action="http://198.168.115.81/procesa.php">
+                <p><label for="">Nombre:  <input type="text" name="nombre" maxlength="15"></label></p>
+                <p><label for="">Edad: <input type="number" name="edad"></label></p>
+                <p><label for="">Correo: <input type="email" name="correo"></label></p>
+                <p><label for="">Telefono: <input type="tel" name="telefono"></label></p>
+                <p><label for="">Sitio Web:<input type="url" name="sitiweb"></label></p>
+                <p><label for=""><input type="submit" value="Enviar"></label></p>
+            </form>
+        </section>
+        <section>
+            <h2>Formulario con select:</h2>
+            <form name="formulario" method="GET" action="#">
+                <p><label for="">Nombre: <input type="text" name="nombre" maxlength="125"></label></p>
+                <p>Nivel de Speaking:</p>
+                <select>
+                    <optgroup label="Speaking">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</o1ption>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </optgroup>
+                </select>
+                <p>Nivel de Writing: </p>
+                <select>
+                    <optgroup label="Writting">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</o1ption>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </optgroup>
+                </select>
+                <p>Nivel de Reading: </p>
+                <select>
+                    <optgroup label="Reading">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</o1ption>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </optgroup>
+                </select>
+                <p><label for=""><input type="submit" value="Enviar"></label></p>
+            </form>
+        </section>
+        <aside>
+            Agenda
+            Publicidad
+        </aside>
+    </main>
+    <footer>
+        <address>Córdoba, Andalucía.</address>
+        <small>&copy Todos los derechos disponibles.</small>
+    </footer> 
+</body>
+</html>

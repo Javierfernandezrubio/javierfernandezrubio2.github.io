@@ -1,0 +1,13 @@
+.box{
+    background-image: url(../css/imagen.jpg);
+    background-size: cover;
+}
+
+div{
+    text-align: center;
+    font-size: 5vw;
+    padding: 10vw;
+    margin: 5vw;
+    border: solid;
+    border: 2px solid black;
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="personas-xsd.xml">
+    <persona>
+      <nombre>Fidel Castro</nombre>
+      <edad>85</edad>
+      <pais>Cuba</pais>
+      <telefono>95758624</telefono>
+    </persona>
+    <persona>
+      <nombre>Jose Diaz</nombre>
+      <edad>35</edad>
+      <pais>Estado Español</pais>
+      <telefono>957586259</telefono>
+    </persona>
+    <persona>
+      <nombre>Thomas Sankara</nombre>
+      <edad>37</edad>
+      <pais>Burkina Faso</pais>
+      <telefono>957569521</telefono>
+    </persona>
+</personas>

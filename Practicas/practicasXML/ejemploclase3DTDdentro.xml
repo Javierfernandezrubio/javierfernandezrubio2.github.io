@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas[
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre,mayor_de_edad?,ciudad,forma_de_pago*,contacto*)>
+<!ATTLIST persona numero CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mayor_de_edad EMPTY>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT forma_de_pago EMPTY>
+<!ATTLIST forma_de_pago tipo (cheque|metalico) "metalico">
+<!ELEMENT contacto EMPTY>
+<!ATTLIST contacto fax CDATA #IMPLIED>
+<!ENTITY escritor "Miguel de Cervantes">
+]>
+<personas>
+  <persona numero="1">
+    <nombre>Mercedes</nombre>
+    <mayor_de_edad/>
+    <ciudad>Cordoba</ciudad>
+    <forma_de_pago tipo="metalico"/>
+    <contacto fax="5555-5555-5555"/>
+  </persona>
+  <persona numero="2">
+    <nombre>Paco</nombre>
+    <ciudad>Cordoba</ciudad>
+    <forma_de_pago tipo="cheque"/>
+    <contacto/>
+  </persona>
+</personas>

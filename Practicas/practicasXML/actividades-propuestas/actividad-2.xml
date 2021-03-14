@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas[
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, director)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+]>
+<peliculas>
+<pelicula>
+<titulo>Con faldas y a lo loco</titulo>
+<director>Billy Wilder</director>
+</pelicula>
+
+<pelicula>
+<titulo>Sopa de ganso</titulo>
+<director>Leo McCarey</director>
+</pelicula>
+<!-- <autor />barto </autor> -->
+</peliculas>
+
+
+<!-- ERRORES Y MODIFICACIONES REALIZADAS
+- Faltaba la creación de la declaración de los elementos. Creamos DOCTYPE y los distintos elementos
+    con sus características.
+- Creamos un nodo raíz con el nombre Películas, que nos permita almacenar mas de una película.
+- En la segunda película, el orden de los elementos está cambiado. Colocamos primero título y después director.
+- El autor "barto" no sería almacenable en este listado de películas, además de estar mal formado por la barra
+    en el primer elemento.
+-->

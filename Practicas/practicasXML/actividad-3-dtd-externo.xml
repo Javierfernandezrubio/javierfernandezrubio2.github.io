@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "actividad-3-dtd.dtd">
+<agenda>
+  <persona>
+    <nombre>Mercedes</nombre>
+    <tlf>654987321</tlf>
+  </persona>
+  <persona id="Paco">
+    <nombre>Paco</nombre>
+    <tlf>654987456</tlf>
+    <tw>@Pacomermelas</tw>
+  </persona>
+</agenda>

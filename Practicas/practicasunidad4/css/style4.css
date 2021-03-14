@@ -1,0 +1,41 @@
+#titulo{
+    font-size: 32px;
+}
+
+#subtitulo{
+    font-size: 150%;
+}
+
+#linea1{
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#linea2{
+    font-size: 120%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#linea3{
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#linea4{
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#linea5{
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.box{
+    background-color: gold;
+    font-size: 5vw;
+    padding: 10vw;
+    margin: 5vw;
+    border: solid;
+}

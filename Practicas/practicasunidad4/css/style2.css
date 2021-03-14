@@ -1,0 +1,53 @@
+p[name]{
+    background: blue;
+}
+p[name="p1"]{
+    background: red;
+}
+p[name~="p2"]{
+    background: yellowgreen;
+}
+p[name^="p3"]{
+    background:yellow;
+}
+p[name$="p4"]{
+    background:brown;
+}
+p[name*="p5"]{
+    background: pink;
+}
+
+a.highlight:hover{
+    color: yellow;
+}
+
+.red{
+    background: red;
+}
+.red:hover{
+    background:green;
+}
+
+.green {
+    background: green;
+}
+
+.green:hover{
+    background: red;
+}
+
+p:nth-child(1){
+    background: red;
+}
+p:nth-child(2){
+    background: yellow;
+}
+p:nth-child(3){
+    background: yellowgreen;
+}
+p:nth-child(4){
+    background: blueviolet;
+}
+p:nth-child(5){
+    background: greenyellow;
+}
