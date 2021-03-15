@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="actividad4-xsd.xsd">
+    <persona fecha_nacimiento="1965-03-30">
+      <datos>
+        <nombre>Fidel</nombre>
+        <apellidos>Castro</apellidos>
+        <dni>89562358</dni>
+      </datos>
+      <comentario>Hola muy buenas</comentario>
+    </persona>
+    <persona fecha_nacimiento="1965-03-30">
+      <datos>
+        <nombre>Fidel</nombre>
+        <apellidos>Castro</apellidos>
+        <dni>89562358</dni>
+      </datos>
+      <comentario>Hola muy buenas</comentario>
+    </persona>
+    <persona fecha_nacimiento="1965-03-30">
+      <datos>
+        <nombre>Fidel</nombre>
+        <apellidos>Castro</apellidos>
+        <dni>89562358</dni>
+      </datos>
+      <comentario>Hola muy buenas</comentario>
+    </persona>
+</personas>

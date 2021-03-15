@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>RSS de Javier Fernández Rubio</title>
+        <link>https://javierfernandezrubio.github.io/</link>
+        <description>Ejercicios de Javier Fernández Rubio para Lenguaje de Marcas</description>
+        <item>
+            <title>Actividad 1</title>
+            <link>#</link>
+            <description>Actividad 1 del PDF Teoria de XSD</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,13 @@
+Definir un elemento llamado puertaCerrada de tipo lógico, que por defecto tenga el valor "falso", 
+y otro elemento llamado ventanaAbierta también de tipo lógico, que tenga asignado el valor 
+fijo "verdadero".
+
+
+<xs:element name="puertaCerrada" logico="falso"/>
+
+<xs:attribute name="logico" type="xs:string" default="falso"/> 
+
+
+<xs:element name="ventanaAbierta" logico="verdadero"/>
+
+<xs:attribute name="logico" type="xs:string" fixed="verdadero"/>    
