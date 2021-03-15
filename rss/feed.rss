@@ -6,8 +6,26 @@
         <description>Ejercicios de Javier Fernández Rubio para Lenguaje de Marcas</description>
         <item>
             <title>Actividad 1</title>
-            <link>#</link>
+            <link>https://github.com/Javierfernandezrubio/javierfernandezrubio.github.io/blob/master/Practicas/practicasXML/actividades-antes-examen/actividad1.txt</link>
             <description>Actividad 1 del PDF Teoria de XSD</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
+        <item>
+            <title>Actividad 2</title>
+            <link>https://github.com/Javierfernandezrubio/javierfernandezrubio.github.io/blob/master/Practicas/practicasXML/actividades-antes-examen/actividad2.txt</link>
+            <description>Actividad 2 del PDF Teoria de XSD</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
+        <item>
+            <title>Actividad 3</title>
+            <link>https://github.com/Javierfernandezrubio/javierfernandezrubio.github.io/blob/master/Practicas/practicasXML/actividades-antes-examen/actividad3.xml</link>
+            <description>Actividad 3 del PDF Teoria de XSD</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
+        <item>
+            <title>Actividad 4</title>
+            <link>https://github.com/Javierfernandezrubio/javierfernandezrubio.github.io/blob/master/Practicas/practicasXML/actividades-antes-examen/actividad4.xml</link>
+            <description>Actividad 4 del PDF Teoria de XSD</description>
             <author>Javier Fernandez Rubio</author>
         </item>
     </channel>
