@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<curriculums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="curriculum.xsd">
+
+  <cv id="D2" fecha="2021-03-17" categoria="Desarrollador">
+    <datos_personales>
+      <nombre>Javier</nombre>
+      <apellido1>Fernández</apellido1>
+      <apellido2>Rubio</apellido2>
+      <telefono>657858565</telefono>
+      <correo>a19feruja@iesgrancapitan.org</correo>
+      <direcciones>
+        <direccion>
+          <calle>El Viso</calle>
+          <localidad>Pozoblanco</localidad>
+          <codigopostal>14400</codigopostal>
+          <provincia>Córdoba</provincia>
+          <pais>Andalucía</pais>
+        </direccion>
+      </direcciones>
+      <rrss>
+        <nombre>Tiktok</nombre>
+        <nick>UnoCualquiera</nick>
+        <enlace>tiktok.com</enlace>
+        <valoracion>1</valoracion>
+      </rrss>
+    </datos_personales>
+    <datos_academicos>
+      <titulaciones_oficiales>
+        <descripcion>Bachillerato</descripcion>
+        <organismo>Junta de Andalucía</organismo>
+        <fechaInicio>2012-09-15</fechaInicio>
+        <fechaFinalizacion>2014-05-31</fechaFinalizacion>
+      </titulaciones_oficiales>
+      <cursos>
+        <descripcion>Curso de Manipulacion de Alimentos</descripcion>
+        <empresa>Academia Flores</empresa>
+        <fechaInicio>2019-07-01</fechaInicio>
+        <fechaFinalizacion>2019-07-05</fechaFinalizacion>
+      </cursos>
+      <nivelIdioma>
+        <comprender>B1</comprender>
+        <hablar>B1</hablar>
+        <escribir>B1</escribir>
+      </nivelIdioma>
+    </datos_academicos>
+    <experiencia_laboral>
+      <empresa>
+        <nombre>Empresa El gato del Vecino</nombre>
+        <fechaInicio>2019-06-30</fechaInicio>
+        <fechaFinalizacion>2021-09-10</fechaFinalizacion>
+        <tarea>Desarrollo de Aplicaciones Webs</tarea>
+      </empresa>
+    </experiencia_laboral>
+  </cv>
+  <cv id="D5" fecha="2021-03-17" categoria="Desarrollador">
+    <datos_personales>
+      <nombre>Javier</nombre>
+      <apellido1>Fernández</apellido1>
+      <apellido2>Rubio</apellido2>
+      <telefono>657858565</telefono>
+      <correo>a19feruja@iesgrancapitan.org</correo>
+      <direcciones>
+        <direccion>
+          <calle>El Viso</calle>
+          <localidad>Pozoblanco</localidad>
+          <codigopostal>14400</codigopostal>
+          <provincia>Córdoba</provincia>
+          <pais>Andalucía</pais>
+        </direccion>
+      </direcciones>
+      <rrss>
+        <nombre>Tiktok</nombre>
+        <nick>UnoCualquiera</nick>
+        <enlace>tiktok.com</enlace>
+        <valoracion>1</valoracion>
+      </rrss>
+    </datos_personales>
+    <datos_academicos>
+      <titulaciones_oficiales>
+        <descripcion>Bachillerato</descripcion>
+        <organismo>Junta de Andalucía</organismo>
+        <fechaInicio>2012-09-15</fechaInicio>
+        <fechaFinalizacion>2014-05-31</fechaFinalizacion>
+      </titulaciones_oficiales>
+      <cursos>
+        <descripcion>Curso de Manipulacion de Alimentos</descripcion>
+        <empresa>Academia Flores</empresa>
+        <fechaInicio>2019-07-01</fechaInicio>
+        <fechaFinalizacion>2019-07-05</fechaFinalizacion>
+      </cursos>
+      <nivelIdioma>
+        <comprender>B1</comprender>
+        <hablar>B1</hablar>
+        <escribir>B1</escribir>
+      </nivelIdioma>
+    </datos_academicos>
+    <experiencia_laboral>
+      <empresa>
+        <nombre>Empresa El gato del Vecino</nombre>
+        <fechaInicio>2019-06-30</fechaInicio>
+        <fechaFinalizacion>2021-09-10</fechaFinalizacion>
+        <tarea>Desarrollo de Aplicaciones Webs</tarea>
+      </empresa>
+    </experiencia_laboral>
+  </cv>
+    
+
+</curriculums>

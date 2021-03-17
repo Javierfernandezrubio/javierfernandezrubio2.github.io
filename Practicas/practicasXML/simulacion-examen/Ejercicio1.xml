@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE red [
+<!ELEMENT red (centro)*>
+<!ELEMENT centro (nombre, grado, anyo, localizacion)>
+<!ATTLIST centro type CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT grado (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT localizacion (ciudad, comunidad)>
+<!ELEMENT comunidad (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+]>
+<red>
+    <centro type="Instituto Educacion Secundaria">
+      <nombre>Ricardo Delgado</nombre>
+      <grado>Secundaria</grado>
+      <anyo>1995</anyo>
+      <localizacion>
+        <ciudad>Cordoba</ciudad>
+        <comunidad>CC.AA de Andalucía</comunidad>
+      </localizacion>
+    </centro>
+    <centro type="Instituto Educacion Secundaria">
+      <nombre>Antonio Maria</nombre>
+      <grado>Secundaria</grado>
+      <anyo>1990</anyo>
+      <localizacion>
+        <ciudad>Cordoba</ciudad>
+        <comunidad>CC.AA de Andalucía</comunidad>
+      </localizacion>
+    </centro>
+</red>
