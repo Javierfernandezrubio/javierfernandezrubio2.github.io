@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="actividad3.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="actividad3.xsd">
+    <alumno id="a1">
+        <nombre>Javier</nombre>
+        <apellidos>Fernández Rubio</apellidos>
+        <curso>1º DAW</curso>
+        <asignaturas>
+            <programacion>
+                <nota>8</nota>
+            </programacion>
+            <lenguaje_marcas>
+                <nota>7</nota>
+            </lenguaje_marcas>
+        </asignaturas>
+    </alumno>
+
+    <alumno id="a2">
+        <nombre>David</nombre>
+        <apellidos>Garcia Rosal</apellidos>
+        <curso>1º DAW</curso>
+        <asignaturas>
+            <programacion>
+                <nota>5</nota>
+            </programacion>
+            <lenguaje_marcas>
+                <nota>6</nota>
+            </lenguaje_marcas>
+            <bases_datos>
+                <nota>4</nota>
+            </bases_datos>
+            <sistemas_informaticos>
+                <nota>8</nota>
+            </sistemas_informaticos>
+            <entornos>
+                <nota>7</nota>
+            </entornos>
+        </asignaturas>
+    </alumno>
+
+</alumnos>

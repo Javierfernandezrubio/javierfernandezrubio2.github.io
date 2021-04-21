@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="actividad2.xsl" type="text/xsl"?>
+<horario>
+    <lunes>
+        <primera>1</primera>
+        <segunda>2</segunda>
+        <tercera>3</tercera>
+        <cuarta>4</cuarta>
+        <quinta>5</quinta>
+        <sexta>6</sexta>
+    </lunes>
+    <martes>
+        <primera>7</primera>
+        <segunda>8</segunda>
+        <tercera>9</tercera>
+        <cuarta>10</cuarta>
+        <quinta>11</quinta>
+        <sexta>12</sexta>
+    </martes>
+    <miercoles>
+        <primera>13</primera>
+        <segunda>14</segunda>
+        <tercera>15</tercera>
+        <cuarta>16</cuarta>
+        <quinta>17</quinta>
+        <sexta>18</sexta>
+    </miercoles>
+    <jueves>
+        <primera>19</primera>
+        <segunda>20</segunda>
+        <tercera>21</tercera>
+        <cuarta>22</cuarta>
+        <quinta>23</quinta>
+        <sexta>24</sexta>
+    </jueves>
+    <viernes>
+        <primera>25</primera>
+        <segunda>26</segunda>
+        <tercera>27</tercera>
+        <cuarta>28</cuarta>
+        <quinta>29</quinta>
+        <sexta>30</sexta>
+    </viernes>
+
+
+</horario>

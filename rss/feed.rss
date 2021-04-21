@@ -28,5 +28,11 @@
             <description>Actividad 4 del PDF Teoria de XSD</description>
             <author>Javier Fernandez Rubio</author>
         </item>
+        <item>
+            <title>Actividad BookStore XQuery</title>
+            <link>https://github.com/Javierfernandezrubio/javierfernandezrubio.github.io/blob/master/Practicas/practicasXQuery/bookstore/consultas-bookstore.xq</link>
+            <description>Consultas sobre bookstore.xml</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
     </channel>
 </rss>

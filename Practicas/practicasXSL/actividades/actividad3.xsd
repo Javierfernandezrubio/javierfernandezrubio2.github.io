@@ -1,0 +1,61 @@
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="alumnos">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="alumno" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="nombre"/>
+            <xs:element type="xs:string" name="apellidos"/>
+            <xs:element type="xs:string" name="curso"/>
+            <xs:element name="asignaturas">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="programacion">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="nota"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="lenguaje_marcas">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="nota"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="bases_datos" minOccurs="0">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="nota"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="sistemas_informaticos" minOccurs="0">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="nota"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="entornos" minOccurs="0">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element type="xs:byte" name="nota"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="id" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
