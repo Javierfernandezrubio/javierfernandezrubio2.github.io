@@ -1,5 +1,6 @@
 (: 1. Mostrar los títulos de los libros con la etiqueta "titulo".:)
-doc("bookstore.xml")/bookstore/book/title
+for $x in doc("Biblioteca.xml")/bookstore/book/title
+return <titulo>{data($x)}</titulo>
 
 (: 2. Mostrar los libros cuyo precio sea menor o igual a 30. Primero incluyendo la condición en la cláusula "where" y luego en la ruta del XPath.:)
 (:for $x in doc('bookstore.xml')/bookstore/book
@@ -7,6 +8,12 @@ where $x/price<=30
 return $x/title:)
 for $x in doc('bookstore.xml')/bookstore/book[price<=30]
 return $x/title
+
+(:3.Mostrar sólo el título de los libros cuyo precio sea menor o igual a 30.:)
+for $x in doc('bookstore.xml')/bookstore/book[price<=30]
+return <title>{$x/title/text()}</title>
+
+
 
 (: 5. Mostrar el título y el autor de los libros del año 2005, y etiquetar cada uno de ellos con "lib2005".:)
 <libreria>
@@ -30,6 +37,9 @@ return
 <publicacion>{$x}</publicacion>
 
 (: 7. Mostrar los libros ordenados primero por "category" y luego por "title" en una sola consulta.
+for $x in doc ("Biblioteca.xml")/bookstore/book
+order by $x/@category,$x/title
+return $x
 :)
 for $x in doc('bookstore.xml')/bookstore/book
 order by $x/@category, $x/title
@@ -45,6 +55,14 @@ return
 <total>
 {$x}
 </total>
+
+(:9.Mostrar los títulos de los libros y al final una etiqueta con el número total de libros.:)
+let $t := count(doc('bookstore.xml')/bookstore/book),
+    $titulos := (for $x in doc('bookstore.xml')/bookstore/book return <title>{$x/title/text()}</title>)
+  return <libros>
+  {$titulos}
+  <total>{$t}</total>
+  </libros>
 
 (: 10. Mostrar el precio mínimo y máximo de los libros.:)
 let $x := max(doc('bookstore.xml')/bookstore/book/price),

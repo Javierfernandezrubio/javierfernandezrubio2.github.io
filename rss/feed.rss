@@ -34,5 +34,11 @@
             <description>Consultas sobre bookstore.xml</description>
             <author>Javier Fernandez Rubio</author>
         </item>
+        <item>
+            <title>Actividad Bailes XQuery</title>
+            <link>https://github.com/Javierfernandezrubio/javierfernandezrubio.github.io/blob/master/Practicas/practicasXQuery/bailes/consultas-bailes.xq</link>
+            <description>Consultas sobre bailes.xml</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
     </channel>
 </rss>
