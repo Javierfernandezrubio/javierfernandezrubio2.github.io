@@ -40,5 +40,11 @@
             <description>Consultas sobre bailes.xml</description>
             <author>Javier Fernandez Rubio</author>
         </item>
+        <item>
+            <title>Blog sobre ERP</title>
+            <link>https://github.com/Javierfernandezrubio/javierfernandezrubio.github.io/blob/master/Practicas/pagina2-erp/index.html</link>
+            <description>WebBlog sobre los Sistemas ERP.</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
     </channel>
 </rss>
