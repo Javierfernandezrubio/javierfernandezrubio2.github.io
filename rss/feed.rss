@@ -46,5 +46,11 @@
             <description>WebBlog sobre los Sistemas ERP.</description>
             <author>Javier Fernandez Rubio</author>
         </item>
+        <item>
+            <title>Instación de Odoo</title>
+            <link>https://javierfernandezrubio.github.io/Practicas/practica-odoo/LMFernandezRubioODOO-RA9.pdf</link>
+            <description>PDF con la instalación y uso de Odoo</description>
+            <author>Javier Fernandez Rubio</author>
+        </item>
     </channel>
 </rss>
