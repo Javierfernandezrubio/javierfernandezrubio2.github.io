@@ -1344,7 +1344,7 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid px #ffffff;
+				border-left: solid 0px #ffffff;
 			}
 
 				#header nav ul li:first-child {
@@ -1376,8 +1376,8 @@ input, select, textarea {
 			display: block;
 			position: absolute;
 			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
+			/*left: calc(50% - 1px);*/
+			width: 0px;
 			height: 100%;
 			background: #ffffff;
 		}
